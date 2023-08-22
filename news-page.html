@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>MaxGraph New Site</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <div class="contacts header__contacts">
+      <div class="burger header__burger">
+        <div class="burger__line burger__line--1"></div>
+        <div class="burger__line burger__line--2"></div>
+        <div class="burger__line burger__line--3"></div>
+      </div>
+      <div class="contacts__item contacts__social">
+        <a href="#" class="social-media">
+          <svg width="20" height="20">
+            <use xlink:href="img/svg/whatsapp.svg#whatsapp"></use>
+          </svg>
+        </a>
+        <a href="#" class="social-media">
+          <svg width="20" height="20">
+            <use xlink:href="img/svg/telegram.svg#telegram"></use>
+          </svg>
+        </a>
+        <a href="#" class="social-media">
+          <svg width="20" height="20">
+            <use xlink:href="img/svg/viber.svg#viber"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="header__contacts-direct">
+
+        <div class="contacts__item contacts__direct">
+          <div class="contacts__direct-icon">
+            <svg width="16" height="11">
+              <use xlink:href="img/svg/mail.svg#mail"></use>
+            </svg>
+          </div>
+          <span class="contacts__direct-info">email@domen.ru</span>
+        </div>
+        <div class="contacts__item contacts__direct">
+          <div class="contacts__direct-icon">
+            <svg width="13" height="13">
+              <use xlink:href="img/svg/phone.svg#phone"></use>
+            </svg>
+          </div>
+          <span class="contacts__direct-info">+7 916 777-77-77</span>
+        </div>
+      </div>
+    </div>
+    <div class="header__divider">
+      <img src="img/ornament.png" alt="">
+    </div>
+
+    <div class="division header__division">
+      <div class="cross division__cross">
+        <svg width="14" height="21">
+          <use xlink:href="img/svg/cross.svg#cross"></use>
+        </svg>
+      </div>
+    </div>
+    <nav class="nav header__nav">
+      <div class="frame frame--smooth frame--mobile">
+        <div class="frame__angle">
+          <div class="frame__angle-img nav__frame frame__angle-img--culture--left">
+            <img src="img/culture-left-angle.png" alt="">
+          </div>
+        </div>
+      </div>
+      <ul class="nav__ul">
+        <li class="nav__item">
+          <a href="about.html" class="nav__link">О храме</a>
+          <div class="nav__item-after">
+            <div class="nav__item-after-line"></div>
+            <div class="nav__item-after-dot"></div>
+            <div class="nav__item-after-line"></div>
+          </div>
+        </li>
+        <li class="nav__item">
+          <a href="schedule.html" class="nav__link">Расписание</a>
+          <div class="nav__item-after">
+            <div class="nav__item-after-line"></div>
+            <div class="nav__item-after-dot"></div>
+            <div class="nav__item-after-line"></div>
+          </div>
+        </li>
+        <li class="nav__item">
+          <a href="prayer.html" class="nav__link">Требы</a>
+          <div class="nav__item-after">
+            <div class="nav__item-after-line"></div>
+            <div class="nav__item-after-dot"></div>
+            <div class="nav__item-after-line"></div>
+          </div>
+        </li>
+        <li class="nav__item">
+          <a href="videos.html" class="nav__link">Видео</a>
+          <div class="nav__item-after">
+            <div class="nav__item-after-line"></div>
+            <div class="nav__item-after-dot"></div>
+            <div class="nav__item-after-line"></div>
+          </div>
+        </li>
+        <li class="nav__item">
+          <a href="news-page.html" class="nav__link">Новости</a>
+          <div class="nav__item-after">
+            <div class="nav__item-after-line"></div>
+            <div class="nav__item-after-dot"></div>
+            <div class="nav__item-after-line"></div>
+          </div>
+        </li>
+        <li class="nav__item">
+          <a href="articles-page.html" class="nav__link">Статьи</a>
+          <div class="nav__item-after">
+            <div class="nav__item-after-line"></div>
+            <div class="nav__item-after-dot"></div>
+            <div class="nav__item-after-line"></div>
+          </div>
+        </li>
+        <li class="nav__item">
+          <a href="contacts.html" class="nav__link">Контакты</a>
+          <div class="nav__item-after">
+            <div class="nav__item-after-line"></div>
+            <div class="nav__item-after-dot"></div>
+            <div class="nav__item-after-line"></div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <main class="main">
+        <section class="news-list">
+    <div class="container news-list__container">
+        <div class="container__header container__header--center news-list__header">
+            <span class="title">
+                Новости
+            </span>
+        </div>
+
+        <div class="cards news-list__cards">
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__top">
+
+                    <div class="frame">
+                        <div class="frame__angle">
+                            <div class="frame__angle-img frame__angle-img--culture-right-top">
+                                <img src="img/culture-left-angle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="img" src="img/news1.jpg" alt="">
+                    <div class="date card__date">01.08.2023</div>
+                </div>
+                <div class="card__description">
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст… текст… текст… текст…
+                    текст… текст… текст… текст… текст… текст… текст… текст… текст… текст
+                    Текст… текст… текст …текст… текст… текст… текст…
+                </div>
+                <div class="card__bottom">
+                    <button class="btn btn--brown">
+                        Подробнее
+                        <div class="btn__arrow">
+                            <div class="btn__arrow-line btn__arrow-line--1"></div>
+                            <div class="btn__arrow-line btn__arrow-line--2"></div>
+                            <div class="btn__arrow-line btn__arrow-line--3"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="news-list__bottom">
+            <div class="pages">
+                <div class="pages__item pages__item--active">1</div>
+                <div class="pages__item">2</div>
+                <div class="pages__item">3</div>
+                <div class="pages__item">4</div>
+                <div class="pages__item">5</div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__info">
+      <div class="footer__info-left">
+        <div class="footer__column">
+          <div class="footer__column-title">
+            Храм царя страстотерпца Николая II
+          </div>
+          <div class="footer__column-division">
+            <div class="footer__column-division-dot"></div>
+            <div class="footer__column-division-dot"></div>
+            <div class="footer__column-division-dot"></div>
+          </div>
+          <div class="footer__column-description">
+            Сочинская Епархия Русской Православной Церкви Московский Патриархат, село Каштаны
+          </div>
+
+          <div class="contacts footer__contacts">
+            <div class="contacts__item contacts__social">
+              <a href="#" class="social-media social-media--light">
+                <svg width="17" height="14">
+                  <use xlink:href="img/svg/telegram2.svg#telegram"></use>
+                </svg>
+              </a>
+              <a href="#" class="social-media social-media--light">
+                <svg width="23" height="14">
+                  <use xlink:href="img/svg/vk.svg#vk"></use>
+                </svg>
+              </a>
+              <a href="#" class="social-media social-media--light">
+                <svg id="youtube" width="22" height="21" viewBox="0 0 22 21" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_17_397)">
+                    <path
+                      d="M20.8647 4.6725C20.2903 3.65925 19.6669 3.47288 18.3977 3.402C17.1297 3.31669 13.9413 3.28125 11.1791 3.28125C8.41164 3.28125 5.22193 3.31669 3.95532 3.40069C2.6887 3.47288 2.06399 3.65794 1.48429 4.6725C0.892669 5.68444 0.588257 7.42744 0.588257 10.4961C0.588257 10.4987 0.588257 10.5 0.588257 10.5C0.588257 10.5026 0.588257 10.5039 0.588257 10.5039V10.5066C0.588257 13.5621 0.892669 15.3182 1.48429 16.3196C2.06399 17.3329 2.68737 17.5166 3.95399 17.6019C5.22193 17.6754 8.41164 17.7188 11.1791 17.7188C13.9413 17.7188 17.1297 17.6754 18.399 17.6032C19.6683 17.5179 20.2916 17.3342 20.8661 16.3209C21.463 15.3195 21.7647 13.5634 21.7647 10.5079C21.7647 10.5079 21.7647 10.5039 21.7647 10.5013C21.7647 10.5013 21.7647 10.4987 21.7647 10.4974C21.7647 7.42744 21.463 5.68444 20.8647 4.6725ZM8.52943 14.4375V6.5625L15.1471 10.5L8.52943 14.4375Z"
+                      fill="#D3BA7B" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_17_397">
+                      <rect width="21.1765" height="21" fill="white" transform="translate(0.588257)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              </a>
+              <a href="#" class="social-media social-media--light">
+                <svg width="21" height="19">
+                  <use xlink:href="img/svg/ok.svg#ok"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__info-right">
+        <div class="footer__column footer__column--center">
+          <div class="footer__column-header">
+            <div class="footer__column-title">
+              Информация
+            </div>
+            <div class="ornament ornament--left ornament--require">
+              <div class="ornament__head">
+                <img src="img/ornament-head.png" alt="">
+              </div>
+              <div class="ornament__basis"></div>
+            </div>
+            <nav class="footer__nav">
+              <ul class="footer__nav-ul">
+                <div class="footer__nav-item"><a href="#">О храме</a></div>
+                <div class="footer__nav-item"><a href="#">Расписание</a></div>
+                <div class="footer__nav-item"><a href="#">Требы</a></div>
+                <div class="footer__nav-item"><a href="#">Видео</a></div>
+                <div class="footer__nav-item"><a href="#">Новости</a></div>
+                <div class="footer__nav-item"><a href="#">Статьи</a></div>
+                <div class="footer__nav-item"><a href="#">Контакты</a></div>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+        <div class="footer__column footer__column--right">
+          <div class="footer__column-header">
+            <div class="footer__column-title">
+              Контакты
+            </div>
+            <div class="ornament ornament--right">
+              <div class="ornament__head">
+                <img src="img/ornament-head.png" alt="">
+              </div>
+              <div class="ornament__basis"></div>
+            </div>
+          </div>
+          <ul class="footer__contacts">
+            <li class="footer__contacts-item">+7 916 777-77-77</li>
+            <li class="footer__contacts-item">email@domen.ru</li>
+          </ul>
+
+          <div class="contacts footer__contacts footer__contacts-last">
+            <div class="contacts__item contacts__social footer__contacts-social">
+              <a href="#" class="social-media social-media--light">
+                <svg width="20" height="20">
+                  <use xlink:href="img/svg/whatsapp2.svg#whatsapp"></use>
+                </svg>
+              </a>
+              <a href="#" class="social-media social-media--light">
+                <svg width="17" height="14">
+                  <use xlink:href="img/svg/telegram2.svg#telegram"></use>
+                </svg>
+              </a>
+              <a href="#" class="social-media social-media--light">
+                <svg width="20" height="20">
+                  <use xlink:href="img/svg/viber2.svg#viber"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="division">
+    <div class="cross division__cross">
+      <svg width="14" height="21">
+        <use xlink:href="img/svg/cross.svg#cross"></use>
+      </svg>
+    </div>
+  </div>
+  <div class="footer__copyright">
+    <div class="copyright">Copyright © Авторские права защищены 2023 г.</div>
+    <div class="company">
+      <img src="img/company.png" alt="">
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
